@@ -1,9 +1,9 @@
 # 文件说明
-ANTVRToken目录为游戏加密包
-CheckANTVRToken目录为游戏加密验证程序
+1. ANTVRToken.zip为游戏加密包
+2. CheckANTVRToken.zip为游戏加密验证程序
 ---
 # 游戏加密
-对应ANTVRToken目录
+对应ANTVRToken.zip
 ## 文档目的
   此文档仅供给与蚁视合作的游戏开发厂商阅读使用，用于游戏开发厂商与蚁视保护游戏产权.防止用户在未授权下进行游戏.
 ## 验证步骤
@@ -122,7 +122,7 @@ gameid为蚁视BD针对每款游戏提供的唯一id(一般为9为数字),具体
 ---
 
 # 游戏验证
-  对应CheckANTVRToken目录
+  对应CheckANTVRToken.zip
 1. 验证程序需要Framework4.5的支持
 2. 请保证系统盘Windows目录下有蚁视的加密dll(在AntvrToken.zip包中)
 
