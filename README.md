@@ -2,7 +2,7 @@
 1. ANTVRToken.zip为游戏加密包
 2. CheckANTVRToken.zip为游戏加密验证程序
 ---
-# 游戏加密2
+# 游戏加密
 对应ANTVRToken.zip
 ## 文档目的
   此文档仅供给与蚁视合作的游戏开发厂商阅读使用，用于游戏开发厂商与蚁视保护游戏产权.防止用户在未授权下进行游戏.
@@ -65,8 +65,6 @@ return 0;
 ```
 ### Unity for C#版本
 ```
-
-
 class Program
 {
 void Start()      
