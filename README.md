@@ -44,11 +44,16 @@ int CheckToken(const int gameid, char* token)
 int main(int argc, char *argv[])
 {
 char token[129] = { 0 };
-if (argc > 1) {  memcpy(token, argv[1], 128);  
-printf("收到的字符流： %s\n", token); }
-else {  printf("启动失败，无Token");
-// Todo:阻止游戏运行的逻辑  return 0; } 
-// 具体游戏ID请于蚁视BD索要,123456789为示例 const int gameid = 123456789;
+if (argc > 1) {  
+memcpy(token, argv[1], 128);  
+printf("收到的字符流： %s\n", token); 
+}else { 
+printf("启动失败，无Token");
+// Todo:阻止游戏运行的逻辑  
+return 0;
+} 
+// 具体游戏ID请于蚁视BD索要,123456789为示例 
+const int gameid = 123456789;
 int returnvalue = antvr::antvrtoken::CheckToken(gameid, token);
 if (returnvalue == 0)
 {
