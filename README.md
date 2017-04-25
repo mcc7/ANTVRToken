@@ -34,7 +34,7 @@ int CheckToken(const int gameid, char* token)
 ```
 
 ## 集成步骤
-***注ANTVRToken.dll使用C++编写***
+***注:ANTVRToken.dll使用C++编写***
 1. 根据游戏名向蚁视BD索要对应游戏的gameid,一般为9位数字
 2. 将*ANTVRToken.zip*下的*Windows目录*覆盖到系统盘(ANTVRToken.dll不存在于游戏工程内)
 3. 在*调用示例*中找到对应编程语言Demo进行集成
