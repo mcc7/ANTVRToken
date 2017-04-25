@@ -1,10 +1,10 @@
 # 文件说明
-1. ANTVRToken.zip为游戏加密包
-2. CheckANTVRToken.zip为游戏加密验证程序
+1. *ANTVRToken.zip*为游戏加密包
+2. *CheckANTVRToken.zip*为游戏加密验证程序
 
 ---
 # 游戏加密
-对应ANTVRToken.zip
+对应*ANTVRToken.zip*
 
 ## 文档目的
 此文档仅供给与蚁视合作的游戏开发厂商阅读使用，用于游戏开发厂商与蚁视保护游戏产权.防止用户在未授权下进行游戏.
@@ -34,11 +34,11 @@ int CheckToken(const int gameid, char* token)
 ```
 
 ## 集成步骤
-注ANTVRToken.dll使用C++编写
+***注ANTVRToken.dll使用C++编写***
 1. 根据游戏名向蚁视BD索要对应游戏的gameid,一般为9位数字
-2. 将ANTVRToken下的[Windows]目录覆盖到系统盘(ANTVRToken.dll不存在于游戏工程内)
-3. 在[#调用示例]中找到对应编程语言Demo进行集成
-4. 集成完成后根据[CheckANTVRToken.zip]下的检查工具进行验证(验证说明参照[#游戏验证])
+2. 将*ANTVRToken.zip*下的*Windows目录*覆盖到系统盘(ANTVRToken.dll不存在于游戏工程内)
+3. 在*调用示例*中找到对应编程语言Demo进行集成
+4. 集成完成后根据*CheckANTVRToken.zip*下的检查工具进行验证(验证说明参照*游戏验证*)
 5. 验证通过后将游戏提交于蚁视BD
 
 ## 调用示例
