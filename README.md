@@ -50,7 +50,8 @@ int CheckToken(const int gameid, char* token)
 int main(int argc, char *argv[])
 {
 char token[129] = { 0 };
-if (argc > 1) {  
+if (argc > 1)
+{  
 memcpy(token, argv[1], 128);  
 printf("收到的字符流： %s\n", token); 
 }else { 
